@@ -9,32 +9,33 @@
 
 * 主题列表
 
-![image](https://wx1.sinaimg.cn/mw690/a9a6744agy1fmvh56dddhj20ku112jwv.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44.png)
 
 * 节点列表
 
-![image](https://wx2.sinaimg.cn/mw690/a9a6744agy1fmvh5615abj20ku112gp9.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08.png)
 
-* 侧边栏
+* 发布主题
 
-![image](https://wx2.sinaimg.cn/mw690/a9a6744agy1fmvh56fet5j20ku112af8.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14.png)
+
+* 个人中心
+
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06.png)
+
+
 
 * 主题详情页
 
-![image](https://wx1.sinaimg.cn/mw690/a9a6744agy1fmvh56a2f9j20ku112jwd.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57.png)
 
 * 作者操作（长按作者显示区域弹出操作对话框，如作者是登录本人支持编辑主题，如不是则支持屏蔽该作者）
 
-![image](https://wx2.sinaimg.cn/mw690/a9a6744agy1fna2c1efzwj20hr0vkwig.jpg)
-
-* 回复操作（长按回复显示区域弹出对话框，如回复是本人支持编辑回复，如不是则支持屏蔽回复者）
-
-![image](https://wx4.sinaimg.cn/mw690/a9a6744agy1fna2c2o64oj20hr0vktbw.jpg)
-![image](https://wx1.sinaimg.cn/mw690/a9a6744agy1fna2c2ngwfj20hr0vkgon.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50.png)
 
 * 回复详情页(支持@某一个人，讯飞语音输入，插入拍照或者相片图片)
 
-![image](https://wx2.sinaimg.cn/mw690/a9a6744agy1fna2c1lshxj20hr0vkgmf.jpg)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55.png)
 
 | 功能 |   是否支持 |
 | ------| ------ |
