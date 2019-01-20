@@ -9,32 +9,32 @@
 
 * 主题列表
 
-![https://github.com/sauchye/guanggoo-iOS/blob/master/intro/home.png)
+![home](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/home.png)
 
 * 兴趣列表
 
-![node]https://github.com/sauchye/guanggoo-iOS/blob/master/intro/node.png)
+![node](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/node.png)
 
 * 发布主题
 
-![subimt][https://github.com/sauchye/guanggoo-iOS/blob/master/intro/select-node.png)
+![subimt](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/select-node.png)
 
 * 个人中心
 
-![profile]https://github.com/sauchye/guanggoo-iOS/blob/master/intro/profile.png)
+![profile](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/profile.png)
 
 * 主题详情页
-![info]https://github.com/sauchye/guanggoo-iOS/blob/master/intro/info.png)
+![info](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/info.png)
 
 * 作者操作（长按作者显示区域弹出操作对话框，如作者是登录本人支持编辑主题，如不是则支持屏蔽该作者）
 
-![replay]https://github.com/sauchye/guanggoo-iOS/blob/master/intro/replay2.png)
+![replay](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/replay2.png)
 
 
 
 * 回复详情页(支持@某一个人，讯飞语音输入，插入拍照或者相片图片)
 
-![replay]https://github.com/sauchye/guanggoo-iOS/blob/master/intro/home.png)
+![replay](https://github.com/sauchye/guanggoo-iOS/blob/master/intro/home.png)
 
 | 功能 |   是否支持 |
 | ------| ------ |
