@@ -9,33 +9,31 @@
 
 * 主题列表
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.44.png)
 
-* 节点列表
+* 兴趣列表
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.08.png)
 
 * 发布主题
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.14.png)
 
 * 个人中心
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.07.06.png)
 
-
-
-* 主题详情页
-
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57.png)
+* 主题详情页![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.57.png)
 
 * 作者操作（长按作者显示区域弹出操作对话框，如作者是登录本人支持编辑主题，如不是则支持屏蔽该作者）
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.11.50.png)
+
+
 
 * 回复详情页(支持@某一个人，讯飞语音输入，插入拍照或者相片图片)
 
-![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55](/Users/sauchye/Desktop/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55.png)
+![Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55](/Users/sauchye/Workspace/dev/ios/demo/swift/guanggoo-iOS/intro/Simulator Screen Shot - iPhone X - 2019-01-20 at 23.06.55.png)
 
 | 功能 |   是否支持 |
 | ------| ------ |
