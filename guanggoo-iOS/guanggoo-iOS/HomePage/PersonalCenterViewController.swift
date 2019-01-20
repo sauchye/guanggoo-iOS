@@ -358,7 +358,7 @@ class PersonalCenterViewController: UIViewController ,UITableViewDelegate,UITabl
                 if userLink[userLink.startIndex] == "/" {
                     userLink.removeFirst();
                 }
-                
+
                 let vc = UserInfoViewController.init(urlString: GUANGGUSITE + userLink);
                 vc.vcDelegate = self;
                 vc.hidesBottomBarWhenPushed = true;
@@ -374,12 +374,19 @@ class PersonalCenterViewController: UIViewController ,UITableViewDelegate,UITabl
         if !GuangGuAccount.shareInstance.isLogin() {
             pushLoginViewController();
         }
-        else
-        {
-            Alamofire.request(GUANGGUSITE + "logout").responseString { [weak self](response) in
-                self?.clearUserData();
-                self?.refreshLoginStatus();
-            }
+        else{
+            
+            let alert = UIAlertController.init(title: "", message: "退出后将无法回复评论，确定退出？", preferredStyle: .actionSheet);
+            let ok = UIAlertAction.init(title: "确定", style: .destructive, handler: { (alert) in
+                Alamofire.request(GUANGGUSITE + "logout").responseString { [weak self](response) in
+                    self?.clearUserData();
+                    self?.refreshLoginStatus();
+                }
+            })
+            let cancel = UIAlertAction.init(title: "取消", style: .cancel, handler: nil);
+            alert.addAction(ok);
+            alert.addAction(cancel);
+            self.present(alert, animated: true, completion: nil);
         }
     }
     

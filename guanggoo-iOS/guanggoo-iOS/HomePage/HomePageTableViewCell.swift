@@ -98,10 +98,18 @@ class HomePageTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+   private func selectedReplayCountTextBackgroundColor(){
+        _replyCountLabel.backgroundColor = UIColor.lightGray;
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        selectedReplayCountTextBackgroundColor()
+    }
+    
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+        selectedReplayCountTextBackgroundColor()
     }
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
@@ -191,5 +199,7 @@ class HomePageTableViewCell: UITableViewCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    
     
 }

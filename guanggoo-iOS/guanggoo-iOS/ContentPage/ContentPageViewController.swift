@@ -39,7 +39,7 @@ class ContentPageViewController: UIViewController ,UITableViewDelegate,UITableVi
             }
             _rightButton = UIButton.init(frame: CGRect(x: 0, y: 0, width: 40, height: 40));
             _rightButton.setImage(UIImage.init(named: "ic_unfavorite")?.withRenderingMode(.alwaysOriginal), for: .normal);
-            _rightButton.imageEdgeInsets = UIEdgeInsetsMake(10, 15, 5, 0);
+            //_rightButton.imageEdgeInsets = UIEdgeInsetsMake(10, 15, 5, 0);
             _rightButton.addTarget(self, action: #selector(CenterViewController.rightClick(sender:)), for: .touchUpInside);
             return _rightButton;
         }

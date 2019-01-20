@@ -37,14 +37,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         PublishButton.register();
         let homeVC = HomeViewController.init();
-        let homeNav = UINavigationController.init(rootViewController: homeVC);
+        let homeNav = BaseNavigationController.init(rootViewController: homeVC);
         let homeVC1 = InterestViewController.init();
         homeVC1.title = "兴趣节点";
-        let vc1Nav = UINavigationController.init(rootViewController: homeVC1);
+        let vc1Nav = BaseNavigationController.init(rootViewController: homeVC1);
         let homeVC2 = NotificationViewController.init(urlString: GUANGGUSITE + "notifications");
-        let vc2Nav = UINavigationController.init(rootViewController: homeVC2);
+        let vc2Nav = BaseNavigationController.init(rootViewController: homeVC2);
         let homeVC3 = PersonalCenterViewController.init();
-        let vc3Nav = UINavigationController.init(rootViewController: homeVC3);
+        let vc3Nav = BaseNavigationController.init(rootViewController: homeVC3);
         let dic1 = [CYLTabBarItemTitle:"社区动态",CYLTabBarItemImage:"homepage",CYLTabBarItemSelectedImage:"homepage_selected"];
         let dic2 = [CYLTabBarItemTitle:"兴趣节点",CYLTabBarItemImage:"groups",CYLTabBarItemSelectedImage:"groups_selected"];
         let dic3 = [CYLTabBarItemTitle:"消息通知",CYLTabBarItemImage:"message",CYLTabBarItemSelectedImage:"message_selected"];
@@ -58,13 +58,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         LeanCloud.initialize(applicationID: "7pPF4eyeCKI11qGEmbP67SgJ-gzGzoHsz", applicationKey: "iYv1dRM9UY3dt5vCpTXyzDGW")
         
         IQKeyboardManager.sharedManager().enable = true
-
         self.window = UIWindow()
         self.window?.frame  = UIScreen.main.bounds
         self.window?.rootViewController = tabVC
         self.window?.makeKeyAndVisible()
         return true
     }
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -112,6 +112,7 @@
 - (void)loadWithScollviewAndBtnWithTitles:(NSArray *)titles
 {
     UIScrollView *MenuScrollView = [[UIScrollView alloc]init];
+    MenuScrollView.scrollsToTop  = false;
     MenuScrollView.showsVerticalScrollIndicator = NO;
     MenuScrollView.showsHorizontalScrollIndicator = NO;
     MenuScrollView.backgroundColor = kViewBackgroundColor;

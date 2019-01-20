@@ -130,6 +130,8 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate ,MenuViewDelega
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
         
+        self.navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
         let index = self.menuView.selecteIndex;
         if let vc = self.getSelectedViewController(index: NSInteger(index)) {
             vc.viewWillAppear(animated);
@@ -138,6 +140,9 @@ class HomeViewController: UIViewController ,UIScrollViewDelegate ,MenuViewDelega
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated);
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
+
         let index = self.menuView.selecteIndex;
         if let vc = self.getSelectedViewController(index: NSInteger(index)) {
             vc.viewWillDisappear(animated);

@@ -97,6 +97,7 @@ class RightViewController: UIViewController ,UITableViewDelegate,UITableViewData
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         if let delegate = self.vcDelegate ,indexPath.row < self.nodesData.itemList.count {
             appDelegate.drawController?.closeDrawer(animated: true, completion: nil);
             let item = self.nodesData.itemList[indexPath.row];

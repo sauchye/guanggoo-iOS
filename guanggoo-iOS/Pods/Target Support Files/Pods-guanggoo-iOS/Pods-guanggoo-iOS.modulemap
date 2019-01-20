@@ -1,0 +1,6 @@
+framework module Pods_guanggoo_iOS {
+  umbrella header "Pods-guanggoo-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

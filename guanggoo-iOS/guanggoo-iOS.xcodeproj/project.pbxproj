@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024F82B021F4B7A200788D50 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024F82AF21F4B7A200788D50 /* BaseNavigationController.swift */; };
 		2F01822E20B00A200034EB49 /* GuangGuHelpDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F01822D20B00A200034EB49 /* GuangGuHelpDelegate.swift */; };
 		2F044F3D1FF08B3A0036C47D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F044F3C1FF08B3A0036C47D /* NotificationViewController.swift */; };
 		2F044F3F1FF08CC50036C47D /* NotificationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F044F3E1FF08CC50036C47D /* NotificationDataSource.swift */; };
@@ -71,6 +72,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		024F82AF21F4B7A200788D50 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		2F01822D20B00A200034EB49 /* GuangGuHelpDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuangGuHelpDelegate.swift; sourceTree = "<group>"; };
 		2F044F3C1FF08B3A0036C47D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		2F044F3E1FF08CC50036C47D /* NotificationDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDataSource.swift; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024F82AC21F4B75300788D50 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				024F82AF21F4B7A200788D50 /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		2F0368111FE3A95C00E3DB47 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 				2F1389EF1FF48EE1007BF316 /* CreateTitleViewController.swift */,
 				2F6ECD4220A43EB700905ABA /* HomeViewController.swift */,
 				2F9C07FC21B763B700B7510E /* InterestViewController.swift */,
+				2F044F3C1FF08B3A0036C47D /* NotificationViewController.swift */,
 				2FEBD7DC21B8C1CC008AA38F /* PersonalCenterViewController.swift */,
 				2FDB394421BA1E9B0053376A /* PublishButton.swift */,
 				2FDB394621BA6EF20053376A /* MainTabBarViewController.swift */,
@@ -212,7 +223,6 @@
 			children = (
 				2FD3F9531FDE2E33005DD1F1 /* LeftViewController.swift */,
 				2F65E2161FECEEAD0053AF48 /* LeftViewTableViewCell.swift */,
-				2F044F3C1FF08B3A0036C47D /* NotificationViewController.swift */,
 				2F044F3E1FF08CC50036C47D /* NotificationDataSource.swift */,
 				2F044F401FF0D2EA0036C47D /* UserInfoViewController.swift */,
 				2F8EF92F1FF21D3D0067083D /* UserCommentViewController.swift */,
@@ -318,6 +328,7 @@
 		2FD3F9401FDE25FA005DD1F1 /* guanggoo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				024F82AC21F4B75300788D50 /* Base */,
 				2FC657111FEE21B20001DADC /* Right */,
 				2F65E2081FEC9C0F0053AF48 /* Left */,
 				2FC20BDE1FE9EE4200381CDB /* Common */,
@@ -384,7 +395,6 @@
 				2FD3F93B1FDE25FA005DD1F1 /* Frameworks */,
 				2FD3F93C1FDE25FA005DD1F1 /* Resources */,
 				D624930C314E975883803821 /* [CP] Embed Pods Frameworks */,
-				6C437EC45D6AE206F32D4FD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -445,21 +455,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6C437EC45D6AE206F32D4FD5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-guanggoo-iOS/Pods-guanggoo-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		947B1C59250789BD56B806A5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,6 +557,7 @@
 				2F41E6991FE7DE8100D8C4B4 /* HomePageDataSource.swift in Sources */,
 				2F044F3D1FF08B3A0036C47D /* NotificationViewController.swift in Sources */,
 				2FC20BE21FEA4A4800381CDB /* CPCommentTableViewCell.swift in Sources */,
+				024F82B021F4B7A200788D50 /* BaseNavigationController.swift in Sources */,
 				2F6ECD3C20A4396A00905ABA /* NSString+Extention.m in Sources */,
 				2F044F3F1FF08CC50036C47D /* NotificationDataSource.swift in Sources */,
 				2FDB394721BA6EF20053376A /* MainTabBarViewController.swift in Sources */,
